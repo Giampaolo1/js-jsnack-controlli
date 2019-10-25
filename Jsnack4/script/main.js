@@ -3,10 +3,10 @@
 // grande Gatsby, chiedi all’utente il suo nome e comunicagli se
 // può partecipare o no alla festa.
 
-var lista = ["luca@boolean", "marco@boolean", "mario@boolean"];
+var lista = ["Luca", "Marco", "Mario"];
 console.log(lista);
 
-var askmail = prompt("inserisci la tua mail per accedere alla festa, ricorda di scrivere: (tuonome@boolean)");
+var askname = prompt("Come ti chiami?");
 
 var trovato = false;
 console.log(trovato,"prima di for");
@@ -14,7 +14,7 @@ console.log(trovato,"prima di for");
 // ciclo
 for(var index = 0; index < lista.length; index++) {
   console.log(lista[index]);
-  if(askmail == lista[index]) {
+  if(askname == lista[index]) {
     trovato=true;
     console.log("Nome trovato", index, trovato);
   }

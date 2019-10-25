@@ -16,3 +16,8 @@ for (var i = 1; i <= 5; i++) {
 console.log(somma);
 
 // ciclo while
+
+// while ( condizione ) {
+// // codice da eseguire
+// // istruzioni per terminare il ciclo
+// }
