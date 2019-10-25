@@ -4,9 +4,9 @@
 // inseriti. Esegui questo programma in due versioni, con il for
 // e con il while.
 
-// ciclo
+// ciclo for
 
-var somma;
+var somma = 0;
 for (var i = 1; i <= 5; i++) {
   var numero = parseInt(prompt("Scegli un numero"));
 
@@ -14,3 +14,5 @@ for (var i = 1; i <= 5; i++) {
   somma = somma + numero;
 }
 console.log(somma);
+
+// ciclo while

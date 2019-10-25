@@ -6,8 +6,8 @@
 var parola1 = prompt ("inserisci parola1");
 var parola2 = prompt ("inserisci parola2");
 
-console.log(parola1.length);
-console.log(parola2.length);
+// console.log(parola1.length);
+// console.log(parola2.length);
 
 if (parola1.length < parola2.length) {
 
