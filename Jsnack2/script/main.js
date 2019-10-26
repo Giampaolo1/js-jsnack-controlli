@@ -3,8 +3,8 @@
 // prompt. Il software stampa prima la parola più corta, poi la
 // parola più lunga.
 
-var parola1 = prompt ("inserisci parola1");
-var parola2 = prompt ("inserisci parola2");
+var parola1 = prompt ("Inserisci una parola");
+var parola2 = prompt ("Inserisci un altra parola");
 
 // console.log(parola1.length);
 // console.log(parola2.length);
@@ -24,5 +24,4 @@ if (parola1.length < parola2.length) {
  } else {
   console.log(parola1 , parola2);
   document.getElementById('output').innerHTML = "'" + parola1 + "'" + " è lunga quanto " + "'" + parola2 + "'";
-
  }

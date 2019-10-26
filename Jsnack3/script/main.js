@@ -37,3 +37,5 @@ while (i <= 5) {
 
 console.log(somma);
 document.getElementById('output').innerHTML = "Somma= " + somma;
+
+document.getElementById('numinseriti').innerHTML = "Num Inseriti: ";

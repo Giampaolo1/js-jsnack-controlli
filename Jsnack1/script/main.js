@@ -13,5 +13,7 @@ if (num1 > num2) {
   document.getElementById('output').innerHTML = "Il num più grande è: " + num2;
 } else {
   console.log("I num sono uguali");
-  document.getElementById('output').innerHTML = "I numeri sono uguali";
+  document.getElementById('output').innerHTML = "I numeri inseriti sono uguali";
 }
+
+document.getElementById('numinseriti').innerHTML = "Numeri Inseriti: " + num1 + "," + num2;
