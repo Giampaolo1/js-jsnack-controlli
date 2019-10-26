@@ -6,7 +6,12 @@
 var lista = ["Luca", "Marco", "Mario"];
 console.log(lista);
 
+document.getElementById("listainvitati").innerHTML = "Lista Invitati: " + lista;
+
 var askname = prompt("Come ti chiami?");
+
+document.getElementById("tuonome").innerHTML = "Tuo Nome: " + askname;
+
 
 var trovato = false;
 console.log(trovato,"prima di for");
@@ -26,12 +31,8 @@ console.log(trovato, "dopo for");
 
 if (trovato == true) {
   console.log("sei nella lista");
-
-  var htmlElement = document.getElementById("output");
-  htmlElement.innerHTML = "Sei Invitato!";
-
+  document.getElementById("output").innerHTML = "Sei Invitato!";
 } else {
   console.log("non sei nella lista");
-  var htmlElement = document.getElementById("output");
-  htmlElement.innerHTML = "Non sei invitato!";
+  document.getElementById("output").innerHTML = "Non sei invitato!";
 }

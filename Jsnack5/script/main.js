@@ -14,4 +14,7 @@ for (var i = 1; i <= 6; i++) {
     }
 }
 
+document.getElementById("numinseriti").innerHTML = "Num Inseriti: " + numero;
+
 console.log(array);
+document.getElementById("output").innerHTML = "Num Dispari: " + array;

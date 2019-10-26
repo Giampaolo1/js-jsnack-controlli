@@ -4,20 +4,36 @@
 // inseriti. Esegui questo programma in due versioni, con il for
 // e con il while.
 
-// ciclo for
+// CICLO FOR
 
 var somma = 0;
-for (var i = 1; i <= 5; i++) {
-  var numero = parseInt(prompt("Scegli un numero"));
 
-  console.log(numero);
-  somma = somma + numero;
-}
-console.log(somma);
+// for (var i = 1; i <= 5; i++) {
+//   var numero = parseInt(prompt("Scegli un numero"));
+//
+//   console.log(numero);
+//   somma = somma + numero;
+// }
+// console.log(somma);
 
-// ciclo while
+
+
+// CICLO WHILE
 
 // while ( condizione ) {
 // // codice da eseguire
 // // istruzioni per terminare il ciclo
 // }
+var i = 1
+
+while (i <= 5) {
+ var numero = parseInt(prompt("Scegli un numero"));
+ i++;
+
+ console.log(numero);
+ somma = somma + numero;
+ // document.getElementById('output').innerHTML = "Num inseriti:" + numero;
+}
+
+console.log(somma);
+document.getElementById('output').innerHTML = "Somma= " + somma;
