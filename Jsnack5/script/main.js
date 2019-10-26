@@ -18,8 +18,8 @@ for (var i = 1; i <= 6; i++) {
     }
 }
 
-var numinseriti = document.getElementById('numinseriti').innerHTML;
-document.getElementById('numinseriti').innerHTML = numinseriti + "<li>" + numero + "</li>";
+// var numinseriti = document.getElementById('numinseriti').innerHTML;
+// document.getElementById('numinseriti').innerHTML = numinseriti + "<li>" + numero + "</li>";
 
 
 // document.getElementById("numinseriti").innerHTML = "Num Inseriti: " + numero;
