@@ -27,4 +27,4 @@ document.getElementById('numinseriti').innerHTML = numinseriti + "<li>" + numero
 console.log(array);
 document.getElementById("output").innerHTML = "Num Dispari: " + array;
 
-// IDEA: devo aggiungere un controllo sui doppioni
+// IDEA: devo aggiungere un controllo sui doppioni !

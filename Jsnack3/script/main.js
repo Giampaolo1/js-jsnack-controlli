@@ -14,6 +14,8 @@ var numero = parseInt(prompt("Scegli un numero"));
 var numinseriti = document.getElementById('numinseriti').innerHTML;
 document.getElementById('numinseriti').innerHTML = numinseriti + "<li>" + numero + "</li>";
 
+// var numinseriti = document.getElementById('numinseriti');
+// numinseriti.innerHTML = "<li>" + numero + "</li>";
 
    console.log(numero);
   somma = somma + numero;
