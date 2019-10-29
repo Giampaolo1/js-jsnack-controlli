@@ -12,11 +12,10 @@ for (var i = 1; i <= 6; i++) {
   var numinseriti = document.getElementById('numinseriti').innerHTML;
   document.getElementById('numinseriti').innerHTML = numinseriti + "<li>" + numero + "</li>";
 
-    if (numero % 2 == 0) {
-    } else {
+    if (numero % 2 != 0) {
       array.push(numero)
     }
-}
+
 
 // var numinseriti = document.getElementById('numinseriti').innerHTML;
 // document.getElementById('numinseriti').innerHTML = numinseriti + "<li>" + numero + "</li>";
